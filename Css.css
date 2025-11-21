@@ -1,43 +1,76 @@
-body{
-background-image:url(https://i.pinimg.com/originals/9d/42/6d/9d426de84cefe145b4c054d4f02912e4.png);background-size: 2000px
+.container{
+  display:grid;
+  grid-template-columns: repeat(3,2fr);
+  grid-gap:35px;
+  
 }
 
-header{
-font-style:Bookman;
-Color:#034769;  
+.container2 {
+display:flex;
+justify-content: space-between;
+align-items: center;
+height: 170px;
+font-family: "Helvetica";
+font-style:bold;
+
 }
-h1{
-Color:#034769;
-font-style:Bookman;
+
+.item{
+  width:500px;
+  height:200px;
+  background:#006561;
+}
+
+.item3{
+  width:500px;
+  height:200px;
+  background:#1B0773;
+}
+
+.item4{
+  width:500px;
+  height:200px;
+  background:#5CCCCC;
+}
+
+.item5{
+  width:500px;
+  height:200px;
+  background:#007D1C	;
+}
+
+.item6{
+  width:500px;
+  height:200px;
+  background:#466FD5	;
+}
+
+.item2 {
+text-align: center;  
+background:#FFA040;
+padding: 50px;
+Color:#000000;
+ 
+}
+
+h2{
+  text-align:center;
+  padding-top:30px;
+  Color:#ffffff;
+  font-family: "Arial";
+font-style:bold;
 }
 
 p{
-ront-family:mono;
-font-transform:lowercase;
-font-size:18px;
-}
-
-h3{
   text-align:center;
-  color:#034769;
-}
-h2{
-text-align:center;
-color:#034769;
-font-style:helvetica;
-}
-
-h1{
- font-family: helvetica;
-background-color:#3CA0D0;
-  text-align:center;
-}
-footer{
-background-color:#3CA0D0;
-text-align:right;
+  padding-top:30px;
+  Color:#ffffff;
+  font-family: "Helvetica";
+font-style:italic;
 }
 
 header{
-text-align:center;
-background-color:#3CA0D0;
+  Color:#1D7471;
+  text-align:center;
+font-family: "Helvetica";
 }
